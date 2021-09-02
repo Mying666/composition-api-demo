@@ -23,6 +23,7 @@ const props = defineProps({
 })
 
 const { user } = toRefs(props)
+// const user = ref(props.user)
 
 const { repositories } = useUserRepositories(user)
 
