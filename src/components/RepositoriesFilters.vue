@@ -15,7 +15,7 @@ export default {
   },
   watch: {
     repo(newValue, oldValue) {
-      console.log(newValue, oldValue)
+      // console.log(newValue, oldValue)
       this.$emit('handleFilter', newValue)
     }
   }

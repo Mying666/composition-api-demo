@@ -6,7 +6,7 @@ const UESR_REPO = '/users/{username}/repos'
 
 export async function fetchUserRepositories(user) {
   const REPOS = `${PREDIX}/users/${user}/repos`
-  console.log('user', user)
+  // console.log('user', user)
   if (user) {
     let retry = RETRY_TIMES
     let res

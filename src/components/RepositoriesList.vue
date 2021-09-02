@@ -22,7 +22,7 @@ export default {
   },
   computed: {
     dataList() {
-      console.log('this.list', this.list)
+      // console.log('this.list', this.list)
       return this.list
     } 
   }

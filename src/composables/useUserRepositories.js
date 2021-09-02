@@ -4,7 +4,7 @@ import { ref, onMounted, watch } from 'vue'
 export default function useUserRepositories(user) {
   const repositories = ref([])
   const getUserRepositories = async() => {
-    console.log('fetching')
+    // console.log('fetching')
     repositories.value = await fetchUserRepositories(user.value)
   }
 
